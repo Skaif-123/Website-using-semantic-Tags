@@ -4,6 +4,14 @@ body {
     margin: 0;
     background-color: #f4f4f4;
 }
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color:#ffffff ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
 
 .container {
     width: 80%;
@@ -130,6 +138,15 @@ header a:hover {
 #boxes .box img{
     height: 150px;
     width: 150px;
+}
+
+
+#main .container{
+    display: flex;
+    column-gap: 40px;
+    margin-top: 10px;
+    gap
+
 }
 
 footer{
