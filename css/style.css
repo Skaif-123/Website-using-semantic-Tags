@@ -1,38 +1,141 @@
-body{
-    font: 15px/1.5 Arial, Helvetica,sans-serif;
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
 }
 
-.container{
+.container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
-header{
+header {
     background: #3a4b4a;
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom:#e8491d 3px solid;
+    border-bottom: #e8491d 3px solid;
 }
 
-header a{
+header a {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
 }
 
-header ul{
+header ul {
     margin: 0;
     padding: 0;
 }
+.button_1{
+    height: 38px;
+    background-color: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
 
-header li{
+header li {
     float: left;
     display: inline;
+    padding: 0 20px 0 20px;
+}
 
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight,
+header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+
+/* showcase */
+#showcase {
+    min-height: 400px;
+    background: url('../img/laptop.png') no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1{
+    margin-top:100px;
+    font-size: 55px;
+    margin-bottom:10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+
+#newsletter{
+    padding: 15px;
+    color:#ffffff;
+    background: #35424a;
+}
+
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+    }
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    border-radius: 8px;
+    border: 0;
+}
+
+#boxes{
+    margin-top: 20px;
+}
+#boxes .container{
+    display: flex;
+    /* flex-direction: column; */
+    
+}
+
+#boxes .box{
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    height: 150px;
+    width: 150px;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
 }
